@@ -1,7 +1,9 @@
-package com.haginonyango.linked.list;
+package com.haginonyango.linkedlist;
 
 import java.util.*;
-public class LearnLinkedList {
+public class Things {
+
+	
 
 	public static void main(String[] args) {
 		
@@ -42,6 +44,4 @@ public class LearnLinkedList {
 		while(joe.hasPrevious())
 			System.out.printf("%s ", joe.previous());
 	}
-	
-
 }

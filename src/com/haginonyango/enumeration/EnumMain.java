@@ -12,7 +12,7 @@ public class EnumMain {
 		
 		System.out.println("\nAnd now for the range of constants\n");
 		
-		for(PracticeEnum people: EnumSet.range(PracticeEnum.hagin, PracticeEnum.Jeeeff))
+		for(PracticeEnum people: EnumSet.range(PracticeEnum.hagin, PracticeEnum.Jeff))
 			System.out.printf("%s\t%s\t%s\n", people, people.getDesc(), people.getYear());
 
 	}

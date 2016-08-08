@@ -6,7 +6,8 @@ public enum PracticeEnum {
 
 	hagin("smart","15"),
 	Joy("bae","15"),
-	Olivia("twinzie", "14");
+	Olivia("twinzie", "14"),
+	Jeff("honors methods", "16");
 	
 	private final String desc;
 	private final String year;
