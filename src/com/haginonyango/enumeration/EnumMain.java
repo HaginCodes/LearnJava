@@ -15,6 +15,7 @@ public class EnumMain {
 		for(PracticeEnum people: EnumSet.range(PracticeEnum.hagin, PracticeEnum.Jeff))
 			System.out.printf("%s\t%s\t%s\n", people, people.getDesc(), people.getYear());
 
+		
 	}
 	
 

@@ -5,22 +5,22 @@ public class Things {
 
 	public static void main(String[] args) {
 		
-		String[] cubes = {"moyu","guoguan","GTS","Gans Air","Guansu"};
+		String[] cubes = {"moyu","guoguan","GTS","Gans Air","Guansu","Thunderclap","Aolong GT"};
 		List<String> list = new LinkedList<String>();
 		for(String x: cubes){
 			list.add(x);
 			
-			String[] BGcubes = {"v cube"," lan lan", "cyclone boys","rubiks brand"};
+			String[] BGcubes = {"vcube"," lan lan", "cyclone boys","rubiks brand","fanshi","pyraminx"};
 			List<String> list1 = new LinkedList<String>();
 			for(String y: BGcubes){
 				list1.add(y);
 				
 				
 				list.addAll(list1);
-				list1 = null;
+				list = null;
 				
 				printMe(list1);
-				removeStuff(list1, 2,5);
+				removeStuff(list1, 1,3);
 				printMe(list1);
 				reverseMe(list1);
 			}
